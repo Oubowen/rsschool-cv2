@@ -1,4 +1,3 @@
- # https://oubowen.github.io/rsschool-cv/cv
 # Aliaksandr Obshchyn
 
 > my aim is to develop in the direction of JS development
