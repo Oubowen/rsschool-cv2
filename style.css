@@ -1,0 +1,98 @@
+body {
+    width: 1020px;
+    margin: 50px auto;
+    padding: 80px;
+    border: 1px solid black;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #444;
+    font-size: 18px;
+}
+
+.bcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+  }
+  
+  blockquote::before{
+    content: "\201C"; 
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #3e58a7;
+    position: absolute;
+    left: 10px;
+    top:5px;
+  }
+  
+  blockquote::after{
+    content: "";
+  }
+
+.photo-profile {
+    width: 250px;
+    height: auto;
+}
+
+.contacts {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3e58a7
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: gold;
+}
+
+.cvcard {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #3e58a7;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    color: #3e58a7;
+    text-decoration-line: underline;
+}
+
+.courses__list, .certification__list, .languages__list {
+    padding-left: 20px; 
+}   
+
+.certification__list, .languages__list {
+    list-style: none;
+    line-height: 2; 
+}
+
+.fas, .fab {
+    margin-right: 10px;
+}
+
+.certification {
+    white-space: nowrap;
+}
+
